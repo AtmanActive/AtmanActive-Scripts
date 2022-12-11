@@ -1,0 +1,23 @@
+-- @description Send selected track(s) to SendFX track (bundle)
+-- @version 2.2
+-- @changelog
+--   * AtmanActive 2022: added start from -inf send volume
+--   * AtmanActive 2022: added do-not-add-again-if-already-there logic
+--   * little improvements in the code
+--   + the scripts are now located in their own folder
+-- @author Stephan Römer
+-- @metapackage
+-- @provides
+--  [nomain] .
+--  [main] aa_Send selected track(s) to SendFX1.lua
+--  [main] aa_Send selected track(s) to SendFX2.lua
+--  [main] aa_Send selected track(s) to SendFX3.lua
+--  [main] aa_Send selected track(s) to SendFX4.lua
+--  [main] aa_Send selected track(s) to SendFX1234.lua
+--  [nomain] aa_Send selected track(s) to SendFX track function.lua
+-- @about
+--   # Description
+--   * This script bundle consists of 4 scripts that will send all selected tracks to an FX track prefixed with SendFX1-4.
+--   * You can easily customize the values in the scripts.
+-- @link Forum Thread https://forums.cockos.com/showthread.php?p=1923923
+-- @link version 2.0 Github: https://github.com/AtmanActive/AA_ReaScripts/tree/main/Send%20selected%20track(s)%20to%20FX%20track%20(bundle)
